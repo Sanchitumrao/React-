@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* for body */
+@layer base {
+  body {
+    @apply bg-slate-800 text-white;
+  }
+}
